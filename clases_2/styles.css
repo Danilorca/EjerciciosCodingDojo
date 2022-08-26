@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+.box {
+    height: 100vh;
+    /* display: inline-block; */
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.box-left-container {
+    background-image: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png");
+    width: 54%;
+    background-size: cover !important;
+
+    background-repeat: no-repeat;
+    height: auto;
+
+}
+
+.box-right-container {
+    background-color: black;
+    width: 46%;
+    padding: 35px;
+}
+
+.icon-twitter{
+  width: 45px;
+  height: auto;
+
+}
+
+.title-container{
+  margin: 48px 0;
+  width: 515px;
+}
+
+h1, h3 {
+  font-family: 'kanit', sans-serif;
+  color:white;
+}
+
+h1{
+  font-size: 75px;
+}
+
+h3{
+  font-size: 38px;
+  margin: 0;
+}
+
+.btn-registro{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: black;
+
+
+}
